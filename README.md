@@ -1,2 +1,4 @@
-# braintumor
-Exploring ClearML implementation in segmentation projects. Brain Tumor segmentation using YOLOv11 and UNet.
+# Brain Tumor Segmentation
+The main focus of this project is to explore the implementation of ClearML (ML versioning tool) in segmentation projects.
+
+Simple brain tumor segmentation using YOLOv11 and UNet architectures.
