@@ -59,3 +59,4 @@ Additionally, it enables easy comparison between different runs, such as evaluat
 - Save UNet logs (ClearML automatically saves the GPU performance and info but nothing related to training)
 - Save trained UNet model in ClearML (currently just saves the path of the model)
 - Use Optuna to create various model configs to compare in ClearML
+- Explore ClearML docker
