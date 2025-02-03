@@ -54,3 +54,8 @@ ClearML is very simple to implement in YOLO scripts but requires more effort for
 - Results and performance graphs
 
 Additionally, it enables easy comparison between different runs, such as evaluating a YOLO model trained with Adam versus another trained with SGD.
+
+## TODO
+- Save UNet logs (ClearML automatically saves the GPU performance and info but nothing related to training)
+- Save trained UNet model in ClearML (currently just saves the path of the model)
+- Use Optuna to create various model configs to compare in ClearML
