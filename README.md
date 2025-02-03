@@ -30,7 +30,7 @@ The repository contains the following important scripts and directories:
 ## Model Results
 ![Model Comparison](view_results/result.png)
 
-From the experiments, YOLO performed better overall in segmentation tasks compared to UNet.
+From the experiments, YOLO performed better overall in segmentation tasks compared to UNet. However, the models were trained on just ~800 images, meaning they did not have sufficient training time. The focus of the project is to test ClearML rather than achieve the best segmentation performance. YOLO tends to be stronger and generalize more than UNet, but to draw firm conclusions, further tuning of the UNet architecture and model hyperparameters would be necessary, along with additional training data.
 
 ## What is ClearML
 [ClearML](https://clear.ml) is a machine learning operations (MLOps) platform that provides tools for experiment tracking, dataset versioning, and model management. It helps manage machine learning workflows by automatically logging scripts, package dependencies, and training results, making reproducibility and collaboration easier.
